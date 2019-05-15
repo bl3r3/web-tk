@@ -20,8 +20,8 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/") no-repeat center center;
+  background-color: black;
+  background: url("../img/atarde.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
 }
@@ -125,3 +125,10 @@ footer.footer {
 }
 
 
+.services{
+  font-size: 2.2em;
+}
+
+.services-p{
+  font-size: 1.3em;
+}
