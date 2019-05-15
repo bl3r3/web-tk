@@ -60,7 +60,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">ABOUT US</h1>
+          <h1 class="mb-5 animated swing">ABOUT US</h1>
           <p>Tekoil is an American company founded in 2011, that specializes in direct sales, consulting and procurement services for the Oil & Gas Industry. 
                 We have developed a strategic network that includes hundreds of suppliers across the United States and China, allowing us to provide smart and cost-efficient solutions to our clients.</p>
         </div>
@@ -73,15 +73,15 @@
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img slide-left" style="background-image: url('img/363.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img slide-left animated slideInLeft" style="background-image: url('img/363.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2 class="tracking-in-expand">Our mission</h2>
           <p class="lead mb-0">Deliver customized and efficient solutions for the Oil & Gas Industry. </p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/372.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
+        <div class="col-lg-6 text-white showcase-img wow slideInRight" style="background-image: url('img/372.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text wow slideInLeft">
           <h2>Our vision</h2>
           <p class="lead mb-0">Be recognized as strategic partners within the Oil & Gas Industry. </p>
         </div>
@@ -92,7 +92,7 @@
   <section class="testimonials text-center bg-light">
     <div class="container">
       <h2 class="mb-5">Our services</h2>
-      <div class="row">
+      <div class="row wow slideInUp">
         <div class="col-lg-4 offset-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid  mb-3" src="img/372.jpg" alt="">
@@ -166,6 +166,10 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 
