@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: black;
-  background: url("../img/atarde.jpg") no-repeat center center;
+  background: url("../img/") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
 }
@@ -131,4 +131,12 @@ footer.footer {
 
 .services-p{
   font-size: 1.3em;
+}
+
+.img-procure{
+  padding: 50px;
+}
+
+.text-procure{
+  font-size: 1.5em;
 }
