@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .contact-container {
 
 }
@@ -6,17 +11,62 @@
 
     }
 
+    .contact-container__left-side p{
+        font-size: 1.1rem;
+    }
+
     .contact-container__right-side {
 
     }
-        .contact-container__right-side input {
+        .contact-container__right-side input:not([type=file]){
             height: 2.5rem;
         }
-        .contact-container__right-side input[type=file] {
-            display: block;
+        .contact-container__right-side input:not([type=file]),
+        .contact-container__right-side textarea{
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-left: 3px solid black;
+            transition: box-shadow 0.15s;
         }
+            .contact-container__right-side input:not([type=file]):hover,
+            .contact-container__right-side textarea:hover{
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+            }
+        .contact-container__right-side .attach-container{
+            height: 4.5rem;
+            position: relative;
+            padding: 0;
+        }
+        .contact-container__right-side .attach-container input[type=file]{
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+            .contact-container__right-side .attach-container .attach-stylish{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                border-radius: 9px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.5rem;
+                border: 3px dotted #2196F3;
+            }
         .contact-container__right-side button {
             display: block;
             width: 6rem;
             height: 2.4rem;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.38);
+            transition: all 0.2s;
         }
+            .contact-container__right-side button:hover {
+                transform: scale(1.1);
+                background-color: #737373;
+                color: white;
+            }
