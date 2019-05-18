@@ -94,15 +94,25 @@
                 </div>
             </div>
             <form action="" class="contact-container__right-side col-md-6">
-               <input type="text" class="col-5 my-4"/>
+               <select name="" id="" class="col-5 my-4" aria-placeholder="Topic">
+                <option value="">Topic</option>
+                <option value="consulting">Consulting & procurement.</option>
+                <option value="sales">Tools & equipment sales.</option>
+                <option value="inquiries">General Inquiries.</option>
+               </select>
                <div class="w-100"></div>
-               <input type="text" class="col-5 mb-4" />
-               <input type="text" class="col-5 offset-1 mb-4" />
-               <input type="text" class="col-5 mb-4" />
-               <input type="text" class="col-5 offset-1 mb-4" />
-               <input type="text" class="col-5 mb-4" />
+               <input type="text" class="col-5 mb-4" placeholder="Company name" 
+                   aria-placeholder="Company name" />
+               <input type="email" class="col-5 offset-1 mb-4" placeholder="Email"
+                   aria-placeholder="Email" />
+               <input type="text" class="col-5 mb-4" placeholder="Name" aria-placeholder="Name" />
+               <input type="text" class="col-5 offset-1 mb-4" placeholder="Phone number" 
+                    aria-placeholder="Phone number" />
+               <input type="text" class="col-5 mb-4" placeholder="State / Region / Country" 
+                    aria-placeholder="State / Region /Country" />
                <div class="w-100"></div>
-               <textarea name="" id="" cols="30" rows="5" class="col-12 mb-4"></textarea> 
+               <textarea name="" id="" cols="30" rows="5" class="col-12 mb-4" placeholder="Your message"
+                   aria-placeholder="Your message"></textarea>
                <div class="mx-auto mb-4 attach-container col-6">
                    <input type="file" class="" id="attach"/>
                    <div class="attach-stylish" id="attach-style">Attach a file</div>

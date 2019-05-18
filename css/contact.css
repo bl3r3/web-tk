@@ -23,10 +23,13 @@ body {
     .contact-container__right-side {
 
     }
-        .contact-container__right-side input:not([type=file]){
+        .contact-container__right-side input:not([type=file]),
+        .contact-container__right-side select
+        {
             height: 2.5rem;
         }
         .contact-container__right-side input:not([type=file]),
+        .contact-container__right-side select,
         .contact-container__right-side textarea{
             border: 1px solid rgba(0, 0, 0, 0.5);
             border-left: 3px solid black;
