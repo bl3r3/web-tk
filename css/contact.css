@@ -64,7 +64,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 font-size: 1.5rem;
-                border: 3px dotted #2196F3;
+                border: 3px dashed #2196F3;
                 transition: all 0.2s;
             }
         .contact-container__right-side button {
