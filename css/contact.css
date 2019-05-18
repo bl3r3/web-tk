@@ -1,0 +1,14 @@
+.contact-container {
+
+}
+
+    .contact-container__left-side {
+
+    }
+
+    .contact-container__right-side {
+
+    }
+        .contact-container__right-side input {
+            height: 2.5rem;
+        }
