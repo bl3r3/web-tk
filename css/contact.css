@@ -40,7 +40,12 @@ body {
             height: 4.5rem;
             position: relative;
             padding: 0;
+            transition: all 0.2s;
+            border-radius: 9px;
         }
+            .contact-container__right-side .attach-container:hover{
+                box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+            }
         .contact-container__right-side .attach-container input[type=file]{
             position: relative;
             z-index: 2;
@@ -60,6 +65,7 @@ body {
                 align-items: center;
                 font-size: 1.5rem;
                 border: 3px dotted #2196F3;
+                transition: all 0.2s;
             }
         .contact-container__right-side button {
             display: block;
