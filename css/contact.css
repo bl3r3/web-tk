@@ -12,3 +12,11 @@
         .contact-container__right-side input {
             height: 2.5rem;
         }
+        .contact-container__right-side input[type=file] {
+            display: block;
+        }
+        .contact-container__right-side button {
+            display: block;
+            width: 6rem;
+            height: 2.4rem;
+        }
