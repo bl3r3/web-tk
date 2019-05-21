@@ -5,3 +5,43 @@ h2 {
 .lead {
   font-size: 2rem;
 }
+
+.testimonials {
+  background-color: #f5f5f5;
+}
+
+.testimonial-item {
+  height: 100%;
+}
+  .testimonial-item img {
+    border-radius: 4px;
+  }
+
+  .testimonial-item__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .testimonial-item h5{
+    font-size: 1.7rem;
+  }
+
+  .testimonial-item p{
+    font-size: 1.1rem;
+  }
+
+  .testimonial-item a {
+    background-color: rgb(142, 44, 44);
+    color: #fff;
+    box-shadow: 3px 4px 7px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    transition: 0.2s;
+  }
+
+    .testimonial-item a:hover {
+      transform: scale(1.1);
+      color: #fff;
+      background-color: rgb(122, 39, 39);
+    }
