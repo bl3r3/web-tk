@@ -28,6 +28,7 @@
 
 .navbar:not(.navbar--index) {
   box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
 }
 
 .navbar-light .navbar-brand {
@@ -76,6 +77,9 @@
   background-color: rgba(0, 0, 0,0.2);
 }
 
+.navbar.scrolled {
+  background-color: #000;
+}
 
 
 .intro-page{
