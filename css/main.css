@@ -26,6 +26,10 @@
   line-height: 1.9;
 }
 
+.navbar:not(.navbar--index) {
+  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 25px;
@@ -107,3 +111,4 @@
 .none-padding{
    padding-right: 0px;
    padding-left: 0px;
+}
