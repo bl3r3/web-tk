@@ -116,3 +116,27 @@
    padding-right: 0px;
    padding-left: 0px;
 }
+
+
+header.masthead .overlay-categorias{
+  height: 65%;
+}
+
+
+.nav-categories{
+  height: 60px;
+  padding: 15px;
+  font-size: 1em;
+}
+
+section.nav-categories .nav-link{
+  color: black;
+}
+
+section.nav-categories .active{
+  color: red;
+}
+
+.img-producto{
+  padding-bottom: 15px;
+}
