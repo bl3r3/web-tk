@@ -53,11 +53,20 @@
 
 .navbar-nav {
   text-align: center;
+  justify-content: center;
+  flex-direction: row !important;
 }
 
 .nav-link {
-  padding: .2rem 1rem;
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+  font-size: 1.2rem;
+  transition: 0.2s;
 }
+  .nav-link:hover {
+    transform: scale(1.05);
+    color: #8e2c2c !important;
+  }
 
 .nav-link.active,.nav-link:focus{
   color: #fff;
@@ -76,6 +85,46 @@
 .navbar{
   background-color: rgba(0, 0, 0,0.2);
 }
+
+  .navbar .container .row {
+    width: 100%;
+    color: #fff;
+  } 
+    .navbar .container .row .nav--upper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+      .navbar .container .row .nav--upper .nav--upper__phone,
+      .navbar .container .row .nav--upper .nav--upper__email{
+        width: 50%;
+        justify-content: flex-end;
+      }
+        .navbar .container .row .nav--upper .nav__phone-image {
+          background-image: url('../img/call.png');
+          background-size: 100% 100%;
+          background-repeat: no-repeat; 
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+        .navbar .container .row .nav--upper .nav__email-image {
+          background-image: url('../img/email.png');
+          background-size: 100% 100%;
+          background-repeat: no-repeat; 
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+        
+    .navbar .container .row .nav--bottom{
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+    } 
+      .navbar .container .row .nav--bottom .navbar-brand {
+        position: absolute;
+        bottom: 1.5rem;
+        left: 2%;
+      }
 
 .navbar.scrolled {
   background-color: #000;
@@ -117,6 +166,9 @@
    padding-left: 0px;
 }
 
+header.masthead {
+  padding-top: 15rem;
+}
 
 header.masthead .overlay-categorias{
   height: 65%;
