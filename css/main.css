@@ -69,6 +69,7 @@
 }
   .nav-link:hover {
     transform: scale(1.05);
+    text-decoration: line-through;
     color: #8e2c2c !important;
   }
 
