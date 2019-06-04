@@ -106,30 +106,3 @@ body {
                 color: white;
             }
 
-.bubbles {
-    position: absolute;
-    z-index: -1;
-    bottom: 0rem;
-}
-    .bubbles__bubble {
-        position: absolute;
-        background-color: #8e2c2c;
-        border-radius: 50%;
-    }
-    .bubbles__bubble--big {
-        width: 20rem;
-        height: 20rem;
-        bottom: 0;
-    }
-    .bubbles__bubble--mid {
-        width: 6rem;
-        height: 6rem;
-        bottom: 19rem;
-        right: -8rem;
-    }
-    .bubbles__bubble--small {
-        width: 3rem;
-        height: 3rem;
-        bottom: 21rem;
-        right: -12rem;
-    }
