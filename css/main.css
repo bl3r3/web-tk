@@ -37,7 +37,11 @@
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
+  transition: 0.1s;
 }
+  .navbar-light .navbar-brand:hover {
+    color: #8e2c2c;
+  }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   color: #fff;
