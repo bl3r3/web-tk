@@ -20,10 +20,10 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: black;
-  background: url("../img/") no-repeat center center;
+  background-color: #343a40;
   background-size: cover;
   padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 header.masthead .overlay {
@@ -43,7 +43,7 @@ header.masthead h1 {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
-    padding-bottom: 4rem;
+    padding-bottom: 12rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -96,6 +96,7 @@ header.masthead h1 {
 }
 
 .testimonials .testimonial-item img {
+  max-width: 12rem;
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
@@ -122,21 +123,4 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-
-.services{
-  font-size: 2.2em;
-}
-
-.services-p{
-  font-size: 1.3em;
-}
-
-.img-procure{
-  padding: 50px;
-}
-
-.text-procure{
-  font-size: 1.5em;
 }

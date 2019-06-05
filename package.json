@@ -32,6 +32,7 @@
         "@fortawesome/fontawesome-free": "5.8.1",
         "bootstrap": "4.3.1",
         "jquery": "3.3.1",
+        "live-server": "^1.2.1",
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
@@ -45,5 +46,6 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
         "merge-stream": "^1.0.1"
-    }
+    },
+    "start": "live-server"
 }

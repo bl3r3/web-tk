@@ -60,18 +60,34 @@
   justify-content: center;
   flex-direction: row !important;
 }
+  .navbar-nav .nav-item {
+    position: relative;
+  }
+
+    .navbar-nav .nav-item .nav-item__under-mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 0;
+      height: 100%;
+      box-shadow: inset 0px -3px 0px 0px #8e2c2c;
+      transition: width 0.3s;
+    }
 
 .nav-link {
   padding-right: .5rem !important;
   padding-left: .5rem !important;
   font-size: 1.2rem;
   transition: 0.2s;
+  padding-bottom: 0;
 }
   .nav-link:hover {
-    transform: scale(1.05);
-    text-decoration: line-through;
     color: #8e2c2c !important;
   }
+    .nav-link:hover + .nav-item__under-mask{
+      width: 100%;
+    }
 
 .nav-link.active,.nav-link:focus{
   color: #fff;
