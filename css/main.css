@@ -251,3 +251,45 @@ header.masthead{
   width: 60px;
   height: 8px;;
 }
+
+footer.footer {
+  padding: 0;
+}
+  footer.footer a{
+    color: #8e2c2c;
+  }
+  footer.footer .footer__brand-logo {
+    padding: 1rem 0;
+    padding-right: 1rem;
+    display: block;
+    font-size: 2rem;
+    border-right: 1px solid rgba(0,0,0,0.4);
+    position: relative;
+    top: 0.5rem;
+  }
+  footer.footer .footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer.footer .footer__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer.footer .footer__btn a{
+    color: #fff;
+  }
+  
+@media screen and (max-width: 575px) {
+  footer.footer .footer__upper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 770px) { 
+  footer.footer .footer__brand-logo {
+    border: none;
+  }
+}
