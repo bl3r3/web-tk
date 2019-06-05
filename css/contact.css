@@ -23,6 +23,10 @@ body {
     .contact-container__right-side {
 
     }
+        .contact-container__right-side .asterisk{
+            color: #8e2c2c;
+            font-size: 1.5rem;
+        }
         .contact-container__right-side input:not([type=file]),
         .contact-container__right-side select
         {
