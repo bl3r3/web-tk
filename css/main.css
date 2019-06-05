@@ -217,3 +217,9 @@ section.nav-categories .active{
 .header-title{
   margin-top: -13%;
 }
+
+header.masthead{
+  padding-bottom: 2rem;
+  padding-top: 0;
+
+}
