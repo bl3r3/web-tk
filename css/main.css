@@ -213,3 +213,13 @@ section.nav-categories .active{
 .img-producto{
   padding-bottom: 15px;
 }
+
+.header-title{
+  margin-top: -13%;
+}
+
+header.masthead{
+  padding-bottom: 2rem;
+  padding-top: 0;
+
+}
