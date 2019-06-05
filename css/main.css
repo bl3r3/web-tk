@@ -1,5 +1,5 @@
 .carousel-item {
-  height: 100vh;
+  height: 70vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -9,11 +9,11 @@
   background-color: black;
 }
 .carousel-caption {
-  bottom: 40%;
+  bottom: 20%;
 }
 
 .carousel-caption h5 {
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 25px;
@@ -22,12 +22,17 @@
 .carousel-caption p {
   width: 75%;
   margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
+div .slide1{
+  bottom: 30%;
+}
+
+
 .navbar:not(.navbar--index) {
-  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.4);
   transition: background 0.3s;
 }
 
@@ -104,7 +109,7 @@
 }
 
 .navbar{
-  background-color: rgba(0, 0, 0,0.2);
+  background-color: rgba(0, 0, 0,0.5);
 }
 
   .navbar .container .row {
