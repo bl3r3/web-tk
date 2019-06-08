@@ -294,9 +294,28 @@ footer.footer {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 600px) {
+  .carousel-caption h5{
+    font-size: 1.5rem;
+  }
+  .carousel-caption p{
+    font-size: 1rem;
+  }
+}
 
 @media screen and (max-width: 770px) { 
   footer.footer .footer__brand-logo {
     border: none;
   }
+}
+@media screen and (max-width: 830px) { 
+  .carousel-caption {
+    bottom: 15%;
+  }
+  div.carousel-caption.slide1  {
+    bottom: 15%;
+  }
+    div.carousel-caption.slide1  h5{
+      font-size: 2rem;
+    }
 }
