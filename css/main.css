@@ -1,5 +1,5 @@
 .carousel-item {
-  height: 70vh;
+  height: 58vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -257,6 +257,11 @@ header.masthead{
 footer.footer {
   padding: 0;
 }
+  footer.footer .container {
+    position: relative;
+    top: 1rem;
+  }
+
   footer.footer a{
     color: #8e2c2c;
   }
