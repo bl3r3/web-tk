@@ -254,6 +254,23 @@ header.masthead{
   height: 8px;;
 }
 
+
+
+.portfolio{
+  font-size: 1.5em;
+}
+
+.portfolio-title{
+  font-size: 3em;
+}
+
+
+hr{
+  width: 80%;
+}
+
+
+
 footer.footer {
   padding: 0;
 }
