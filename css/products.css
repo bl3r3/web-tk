@@ -8,6 +8,7 @@
     .products-container__product {
         border-radius: 10px;
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+        height: 25rem;
     }
 
         .products-container__product a {
@@ -64,6 +65,11 @@
         .products-container__product .card-text {
             text-align: center;
             font-size: 1.2rem;
+        }
+
+        .card-image{
+            width: 90%;
+            height: 40%;
         }
 
 
