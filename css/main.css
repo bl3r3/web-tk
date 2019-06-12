@@ -335,6 +335,25 @@ footer.footer {
   footer.footer .footer__contact {
     border: none;
   }
+
+  .portfolio-text{
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .portfolio-state{
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .portfolio-state-2{
+    text-align: center;
+    font-size: 1.5em;
+    color: #595959;
+    margin-bottom: 40px;
+  }
+
+
+
 }
 @media screen and (max-width: 600px) {
   .carousel-caption h5{
