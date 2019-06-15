@@ -8,6 +8,12 @@
   background-size: cover;
   background-color: black;
 }
+  .carousel-item img {
+    height: 127%;
+    position: relative;
+    bottom: 4rem;
+  }
+
 .carousel-caption {
   bottom: 20%;
 }
