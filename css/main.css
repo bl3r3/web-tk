@@ -8,6 +8,12 @@
   background-size: cover;
   background-color: black;
 }
+  .carousel-item img {
+    height: 127%;
+    position: relative;
+    bottom: 4rem;
+  }
+
 .carousel-caption {
   bottom: 20%;
 }
@@ -232,10 +238,6 @@ div .slide1{
    padding-left: 0px;
 }
 
-header.masthead {
-  padding-top: 15rem;
-}
-
 header.masthead .overlay-categorias{
   height: 65%;
 }
@@ -257,12 +259,6 @@ section.nav-categories .active{
 
 .img-producto{
   padding-bottom: 15px;
-}
-
-header.masthead{
-  padding-bottom: 2rem;
-  padding-top: 9rem;
-
 }
 
 .img-procure{
