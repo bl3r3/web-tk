@@ -29,42 +29,51 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 nav--upper">
-            <div class="nav--upper__phone row">
-              <div class="nav__phone-image"></div>
-              <p class="nav__phone-text mb-1 ml-2">000111222</p>
-            </div>
-            <div class="nav--upper__email row">
-              <div class="nav__email-image"></div>
-              <p class="nav__email-text mb-0 ml-2">tekoil@test.com</p>
-            </div>
-          </div>
-          <div class="col-12 nav--bottom">
-            <a class="navbar-brand" href="index.html">TEKOIL</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 nav--upper">
+                    <div class="nav--upper__contact row col-10">
+                        <div class="phone">
+                            <div class="nav__phone-image"></div>
+                            <p class="nav__phone-text mb-1 ml-2">+1 561 237 5506</p>
+                        </div>
+                        <div class="email">
+                            <div class="nav__email-image ml-3"></div>
+                            <p class="nav__email-text mb-0 ml-2">sales@tekoil.net</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 nav--bottom">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="img/tekoil-logo2.png" alt="tekoil-logo" width="200" height="auto" style="top: 2%;">
+                    </a>
     
-            <div class=" col-12 p-0">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                  <div class="nav-item__under-mask"></div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
-                  <div class="nav-item__under-mask"></div>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                  <div class="nav-item__under-mask"></div>
-                </li>
-              </ul>
+                    <div class=" col-12 p-0">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                                <div class="nav-item__under-mask"></div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                                <div class="nav-item__under-mask"></div>
+                                <div class="nav-item__service-drop">
+                                  <a href="./Consulting_and_procurement.html" class="service-drop__item">Consulting & Procurement</a>
+                                  <a href="./Tools_and_Equipment.html" class="service-drop__item">Tools & Equipment Sales</a>
+                                </div>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                                <div class="nav-item__under-mask"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
+    
         </div>
-    
-      </div>
     </nav>
 
   <!-- Masthead -->
@@ -83,7 +92,7 @@
       <div class="row wow slideInUp delay-1s">
         <div class="col-lg-4 offset-lg-2">
           <div class="">
-            <img class="img-fluid  mb-5" src="img/372.jpg" alt="">
+            <img class="img-fluid  mb-5" src="./img/Services/Services. Consulting & Procurement.png" alt="">
             <br>
             <h5 class="services mb-3">Consulting & Procurement</h5>
             <p class="font-weight-light mb-0 services-p">We help you identify your needs considering technical specifications, priorities and budget and take care of the logistics while you keep growing your business.</p>
@@ -92,9 +101,9 @@
         </div>
         <div class="col-lg-4 ">
           <div class="">
-            <img class="img-fluid  mb-5" src="img/372.jpg" alt="">
+            <img class="img-fluid mb-5" src="img/Services/Services. Tools & Equipment Sales.PNG" height="auto" width="400" alt="">
             <br>
-            <h5 class="services mb-3">Tools and Equipment Sales</h5>
+            <h5 class="services mb-3">Tools & Equipment Sales</h5>
             <p class="font-weight-light mb-0 services-p">We offer a variety of products with attractive price-performance ratio. </p>
             <a href="products.html" class="btn my-3">MORE INFO</a>
           </div>
@@ -106,33 +115,37 @@
 
 
   <!-- Footer -->
-  <footer class="footer bg-light">
+  <footer class="footer">
     <div class="container">
       <div class="row h-100 footer__upper">
         <div class="col-12 col-sm-3 text-center text-sm-left footer__brand-container h-100">
-          <a class="footer__brand-logo" href="index.html">TEKOIL</a>
+          <a class="footer__brand-logo" href="index.html">
+            <img src="img/tekoil-logo2.png" alt="tekoil-logo" width="200" height="auto" style="top: 2%;">
+          </a>
         </div>
-        <div class="col-12 col-sm-6  pt-3 footer__nav">
-          <ul class="list-inline mb-2 text-center">
+        <div class="col-12 col-sm-3  pt-3 footer__nav">
+          <ul class="list-inline mb-2 d-sm-flex text-center text-sm-left">
             <li class="list-inline-item">
-              <a href="#">About</a>
+              <a href="./index.html">Home</a>
             </li>
-            <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Contact</a>
+              <a href="./about.html">About Us</a>
             </li>
-            <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="./services.html">Serivces</a>
             </li>
           </ul>
         </div>
+        <div class="col-12 col-sm-3 footer__contact">
+          <div class="contact-info text-center text-sm-left">
+            <p>3350 SW, 148  Av. Suite 120. <br>  
+              Miramar, FL 33027 </p>
+            <p>sales@tekoil.net</p>
+            <p>+1 561 237 5506</p>
+          </div>
+        </div>
         <div class="col-12 col-sm-3 footer__btn">
-          <a href="./contact.html" class="btn">Contact Us</a>
+          <a href="./contact.html" class="btn">CONTACT US</a>
         </div>
       </div>
       <div class="row footer__copyright">

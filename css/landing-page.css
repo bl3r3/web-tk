@@ -22,33 +22,51 @@ header.masthead {
   position: relative;
   background-color: #343a40;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  font-size: 3rem;
+  height: 18rem;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #d2d2d2;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   opacity: 0.3;
 }
-
+header.masthead .container,
+header.masthead .container .row,
+header.masthead .container .row .col
+ {
+  height: 100%;
+}
+header.masthead .container .row .col-xl-9 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header.masthead p {
+  font-size: 1.1rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 420px) {
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-  header.masthead h1 {
-    font-size: 3rem;
+  header.masthead p {
+    font-size: 1rem;
   }
-}
+} 
 
 .showcase .showcase-text {
   padding: 3rem;
@@ -87,8 +105,8 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .testimonials .testimonial-item {
@@ -123,4 +141,10 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-inner .carousel-item img {
+    height: 100%;
+  }
 }
