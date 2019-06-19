@@ -19,6 +19,10 @@ body {
     .contact-container__left-side p{
         font-size: 1.1rem;
     }
+        .contact-container__left-side p strong{
+            font-size: 1.6rem;
+            color: #8e2c2c;
+        }
 
     .contact-container__right-side {
 
