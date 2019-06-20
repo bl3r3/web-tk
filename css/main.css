@@ -38,7 +38,7 @@ div .slide1{
 
 
 .navbar:not(.navbar--index) {
-  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -1px 4px 4px 0px #fff;
   transition: background 0.3s;
 }
 
@@ -55,11 +55,11 @@ div .slide1{
   }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #fff;
+  color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: black;
 }
 
 .navbar-toggler {
@@ -149,12 +149,12 @@ div .slide1{
 }
 
 .navbar{
-  background-color: rgb(35, 35, 35);
+  background-color: #fff;
 }
 
   .navbar .container .row {
     width: 100%;
-    color: #fff;
+    color: black;
   } 
     .navbar .container .row .nav--upper {
       display: flex;
@@ -207,6 +207,13 @@ div .slide1{
   background-image: url("../img/363.jpg") ;
   height: 275px;
 }
+
+
+
+.parrafo-bajo-header{
+  font-size: 1.4rem;
+}
+
 
 .about-description{
   margin-top: 70px;
