@@ -444,6 +444,10 @@ footer.footer {
   .slide1{
     font-size: 0.7rem;
   }
+
+  header.masthead{
+    padding: 0 !important;
+  }
 }
 
 @media screen and (max-width: 770px) { 
