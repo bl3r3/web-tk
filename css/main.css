@@ -426,6 +426,14 @@ footer.footer {
 
 
 }
+@media screen and (max-width: 565px) {
+  .navbar .container .row .nav--bottom .navbar-brand {
+    bottom: 1.4rem;
+  }
+  .navbar .container .row .nav--bottom .navbar-brand img{
+    width: 6rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .carousel-caption h5{
     font-size: 1.5rem;
@@ -438,6 +446,28 @@ footer.footer {
 @media screen and (max-width: 770px) { 
   footer.footer .footer__brand-logo {
     border: none;
+  }
+}
+
+@media screen and (min-width: 565px) and (max-width: 770px) { 
+  .navbar .container > .row {
+    margin: 0;
+  }
+  .navbar .container .row .nav--upper {
+    margin-top: 5rem;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar .container .row .nav--upper .nav--upper__contact {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    right: 2rem;
+  } 
+  .navbar .container .row .nav--bottom .navbar-brand {
+    bottom: 5rem;
+    left: 11rem;
   }
 }
 @media screen and (max-width: 830px) { 
