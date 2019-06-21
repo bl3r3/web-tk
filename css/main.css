@@ -406,16 +406,6 @@ footer.footer {
   }
 }
 @media screen and (max-width: 575px) {
-  footer.footer .footer__upper {
-    display: flex;
-    flex-direction: column;
-  }
-  footer.footer .footer__nav {
-    border: none;
-  }
-  footer.footer .footer__contact {
-    border: none;
-  }
 
   .portfolio-text{
     text-align: center;
@@ -460,4 +450,17 @@ footer.footer {
     div.carousel-caption.slide1  h5{
       font-size: 2rem;
     }
+}
+@media screen and (max-width: 992px) {  
+  footer.footer .footer__upper {
+    display: flex;
+    flex-direction: column;
+  }
+  footer.footer .footer__nav {
+    border: none;
+  }
+  footer.footer .footer__contact {
+    border: none;
+  }
+
 }
