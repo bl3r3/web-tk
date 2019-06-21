@@ -27,7 +27,7 @@
 .carousel-caption p {
   width: 75%;
   margin: auto;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -398,6 +398,14 @@ footer.footer {
   footer.footer .footer__btn a{
     color: #fff;
   }
+
+
+
+  
+  }
+
+
+
   
 @media screen and (max-width: 430px) {
   .navbar .container .row .nav--bottom .navbar-brand {
