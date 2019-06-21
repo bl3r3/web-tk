@@ -60,6 +60,8 @@ div .slide1{
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
+  position: relative;
+  z-index: 2;
 }
 
 .navbar-toggler {
@@ -79,7 +81,7 @@ div .slide1{
       position: absolute;
       top: 0;
       left: 0;
-      z-index: -1;
+      z-index: 1;
       width: 0;
       height: 100%;
       box-shadow: inset 0px -3px 0px 0px #8e2c2c;
@@ -90,26 +92,38 @@ div .slide1{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: flex-start;
       transition: 0.2s;
       padding: 0;
       position: absolute;
       top: 2.3rem;
       right: -4rem;
       z-index: 20;
-      width: 13rem;
+      width: 13.5rem;
       height: 0rem;
       border-radius: 5px;
       overflow: hidden;
+      transform: translatex(4.5rem);
     }
-
+    .navbar-nav .nav-item .nav-item__service-drop .service-drop__sub {
+      position: relative;
+      width: 100%;
+      text-align: left;
+    }
+      
+    .navbar-nav .nav-item .nav-item__service-drop .service-drop__sub:hover .nav-item__under-mask{
+      width: 100%;
+    }
       .navbar-nav .nav-item .nav-item__service-drop .service-drop__item {
         color: #fff;
+        padding: 0;
+        font-size: 1rem;
+        position: relative;
+        z-index: 2;
       }
-
-        .navbar-nav .nav-item .nav-item__service-drop .service-drop__item:hover{
-          color: #8e2c2c;
-          background-color: #fff;
-        }
+      .navbar-nav .nav-item .nav-item__service-drop .service-drop__item:hover {
+        text-decoration: none;
+      }
 
     .navbar-nav .nav-item:hover .nav-item__service-drop {
       height: 4rem;
@@ -129,7 +143,7 @@ div .slide1{
   .nav-link:hover {
     color: #8e2c2c !important;
   }
-    .nav-link:hover + .nav-item__under-mask{
+    .nav-item:hover > .nav-item__under-mask{
       width: 100%;
     }
 
@@ -301,11 +315,41 @@ section.nav-categories .active{
   font-size: 3em;
 }
 
+.img-producto--hoisting {
+  width: 98%;
+}
 
 hr{
   width: 80%;
 }
 
+.action-section {
+  border-top: 6px double rgb(142, 44, 44);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+  .action-section .action-text {
+      font-size: 1.5rem;
+  }
+
+  .action-section .btn{
+      background-color: rgb(142, 44, 44);
+      color: #fff;
+      box-shadow: 3px 4px 7px 0 rgba(0, 0, 0, 0.5);
+      border-radius: 7px;
+      transition: 0.2s;
+      display: block;
+      width: 10rem;
+      height: 3.5rem;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.3rem;
+  }
 
 
 footer.footer {
