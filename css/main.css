@@ -189,7 +189,7 @@ div .slide1{
           height: 1.5rem;
         }
         .navbar .container .row .nav--upper .nav__email-image {
-          background-image: url('../img/email.png');
+          background-image: url('../img/envelope.png');
           background-size: 100% 100%;
           background-repeat: no-repeat; 
           width: 1.5rem;
@@ -448,6 +448,11 @@ footer.footer {
   header.masthead{
     padding: 0 !important;
   }
+
+  .bt-1{
+    font-size: 0.5rem;
+  }
+
 }
 
 @media screen and (max-width: 770px) { 
