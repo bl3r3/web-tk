@@ -11,7 +11,6 @@
   .carousel-item img {
     height: 127%;
     position: relative;
-    bottom: 4rem;
   }
 
 .carousel-caption {
@@ -440,6 +439,10 @@ footer.footer {
   }
   .carousel-caption p{
     font-size: 1rem;
+  }
+
+  .slide1{
+    font-size: 0.7rem;
   }
 }
 
