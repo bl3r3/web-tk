@@ -25,8 +25,7 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c93755686144175046127814c/8c508ee6a3e55eefcc0eb02ee.js");</script>
-
+  
 
 </head>
 
@@ -117,7 +116,7 @@
                 </div>
             </div>
             <form action="" class="contact-container__right-side col-md-6">
-               <select name="" id="" class="col-5 my-4" aria-placeholder="Topic" required>
+               <select name="subject" id="" class="col-5 my-4" aria-placeholder="Topic" required>
                 <option value="">-</option>
                 <option value="consulting">Consulting & procurement.</option>
                 <option value="sales">Tools & equipment sales.</option>
@@ -126,23 +125,23 @@
                <span class='asterisk'>*</span>
                <div class="w-100"></div>
                <input type="text" class="col-5 mb-4" placeholder="Company name" 
-                   aria-placeholder="Company name" required/> 
+                   aria-placeholder="Company name" name="company_name" required/> 
                 <span class='asterisk'>*</span>
                <input type="email" class="col-5 offset-1 mb-4" placeholder="Email"
-                   aria-placeholder="Email" required/>
+                   aria-placeholder="Email" name="email" required/>
                 <span class='asterisk'>*</span>
-               <input type="text" class="col-5 mb-4" placeholder="Name" aria-placeholder="Name" 
+               <input type="text" class="col-5 mb-4" placeholder="Name" name="name" aria-placeholder="Name" 
                    required/>
                 <span class='asterisk'>*</span>
                <input type="text" class="col-5 offset-1 mb-4" placeholder="Phone number" 
-                    aria-placeholder="Phone number" required/>
+                    aria-placeholder="Phone number" name="phone" required/>
                 <span class='asterisk'>*</span>
                <input type="text" class="col-5 mb-4" placeholder="State / Region / Country" 
-                    aria-placeholder="State / Region /Country" required/>
+                    aria-placeholder="State / Region /Country" name="country" required/>
                 <span class='asterisk'>*</span>
                <div class="w-100"></div>
-               <textarea name="" id="" cols="30" rows="5" class="col-12" placeholder="Your message"
-                   aria-placeholder="Your message"></textarea>
+               <textarea id="" cols="30" rows="5" class="col-12" placeholder="Your message"
+                   aria-placeholder="Your message" name="message"></textarea>
                <div class=" mb-4 attach-container col-5 col-sm-3 col-md-4 col-lg-3">
                    <input type="file" class="" id="attach"/>
                    <div class="attach-stylish" id="attach-style">Attach a file</div>
