@@ -6,6 +6,7 @@
 
 body {
     position: relative;
+    background-color: #f7f7f7;
 }
 
 .contact-container {
@@ -115,3 +116,5 @@ body {
                 transform: scale(1.1);
             }
 
+
+    
