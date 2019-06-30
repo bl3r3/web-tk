@@ -104,7 +104,9 @@
         font-size: 1.3rem;
     }
     
-
+    .products_unicos{
+        height: auto !important;
+    }
 
 @keyframes up {
     0% {height: 0;}

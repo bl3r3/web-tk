@@ -357,6 +357,10 @@ hr{
   }
 
 
+.products-container .row {
+  justify-content: space-evenly;
+}
+
 footer.footer {
   padding: 0;
 }
