@@ -44,6 +44,7 @@ body {
             border: 1px solid rgba(0, 0, 0, 0.5);
             border-left: 3px solid #8e2c2c;
             transition: box-shadow 0.15s;
+            background-color: #fff;
         }
 
             .contact-container__right-side input:not([type=file]):hover,
@@ -57,7 +58,6 @@ body {
 
             .contact-container__right-side select{
                 padding: 1%;
-                background-color: white;
                 color: #757575;
             }
             .contact-container__right-side select option:not(.topic-option){
@@ -122,4 +122,13 @@ body {
             }
 
 
-    
+
+@-moz-document url-prefix() {
+          .contact-container__right-side input:not([type=file]),
+        .contact-container__right-side textarea{ 
+            color: rgb(54, 54, 54);
+        }
+        .contact-container__right-side select{ 
+            -moz-appearance: none; 
+        }
+}
