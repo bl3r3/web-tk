@@ -52,6 +52,7 @@ div .slide1{
   font-weight: bold;
   letter-spacing: 2px;
   transition: 0.1s;
+  z-index: 5;
 }
   .navbar-light .navbar-brand:hover {
     color: #8e2c2c;
