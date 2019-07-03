@@ -57,6 +57,14 @@ body {
 
             .contact-container__right-side select{
                 padding: 1%;
+                background-color: white;
+                color: #757575;
+            }
+            .contact-container__right-side select option:not(.topic-option){
+                color: #000;
+            }
+            .contact-container__right-side select.selected{
+                color: #000;
             }
 
              
