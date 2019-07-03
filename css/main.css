@@ -129,7 +129,7 @@ div .slide1{
       }
 
     .navbar-nav .nav-item:hover .nav-item__service-drop {
-      height: 7rem;
+      height: 4rem;
       padding: 0.4rem 0.2rem;
       box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.4);
       border: 1px solid rgba(35, 35, 35, 0.5);
@@ -328,16 +328,20 @@ hr{
   width: 80%;
 }
 
+.hr-style{
+  border-top:  6px double rgb(142, 44, 44);
+}
+
 .action-section {
   border-top: 6px double rgb(142, 44, 44);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 90%;
 }
   .action-section .action-text {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
   }
 
   .action-section .btn{
@@ -348,12 +352,12 @@ hr{
       transition: 0.2s;
       display: block;
       width: 10rem;
-      height: 3.5rem;
+      height: 2.5rem;
       margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
   }
 
 

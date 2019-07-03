@@ -59,10 +59,7 @@ body {
                 padding: 1%;
             }
 
-                .contact-container__right-side select option[value=""]{
-                    background-color: #8e2c2c;
-                    color: #fff;
-                }
+             
 
         .contact-container__right-side .attach-container{
             height: 2rem;

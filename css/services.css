@@ -38,10 +38,10 @@ h2 {
     background-repeat: no-repeat;
 }
 .service-image--consulting {
-    background-image: url('../img/Services/Services.\ Consulting\ &\ Procurement.png')
+    background-image: url('../img/Home/Services.\ Consulting\ &\ Procurement.\ 2.jpg')
 }
 .service-image--tools {
-    background-image: url('../img/Home/Services.\ Tools\ and\ Equipment\ Sales.PNG')
+    background-image: url('../img/Home/Sales. Tools & Equipment Sales 2.PNG')
 }
 
 @media screen and (max-width: 991px) {
