@@ -2,13 +2,14 @@
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid rgba(132, 132, 132, 0.5);
-  max-width: 950px;
+  max-width: 750px;
 }
 .product-card .product-card__left{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 .product-card .product-card__right{
   display: flex;
@@ -19,7 +20,7 @@
     list-style: none;
   }
   .product-card .product-card__img{
-    width: 85%;
+    width: 60%;
   }
   .product-card .product-card__title {
     border-bottom: 1px solid #8E2C2C;
