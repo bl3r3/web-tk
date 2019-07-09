@@ -272,6 +272,7 @@ header.masthead .overlay-categorias{
   height: 60px;
   padding: 15px;
   font-size: 1em;
+  margin-bottom: 1rem;
 }
 
 section.nav-categories .nav-link{
@@ -280,6 +281,7 @@ section.nav-categories .nav-link{
 
 section.nav-categories .active{
   color: red;
+  border-bottom: 3px solid #8e2c2c;
 }
 
 .img-producto{
@@ -427,6 +429,12 @@ footer.footer {
     bottom: 1.8rem;
   }
 }
+@media screen and (max-width: 465px) {
+  .nav-categories {
+    margin-bottom: 4.5rem;
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 575px) {
 
   .portfolio-text{
@@ -481,6 +489,12 @@ footer.footer {
 @media screen and (max-width: 770px) { 
   footer.footer .footer__brand-logo {
     border: none;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 770px) {
+  
+  .nav-categories {
+    margin-bottom: 2.5rem;
   }
 }
 
