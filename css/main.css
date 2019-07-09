@@ -428,6 +428,9 @@ footer.footer {
   .navbar .container .row .nav--bottom .navbar-brand {
     bottom: 1.8rem;
   }
+  .navbar .container .row .nav--bottom .navbar-nav .nav-link {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 465px) {
   .nav-categories {
