@@ -280,7 +280,7 @@ section.nav-categories .nav-link{
 }
 
 section.nav-categories .active{
-  color: red;
+  color: #8e2c2c;
   border-bottom: 3px solid #8e2c2c;
 }
 
