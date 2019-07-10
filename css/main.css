@@ -333,6 +333,8 @@ hr{
 
 .hr-style{
   border-top:  6px double rgb(142, 44, 44);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .action-section {
@@ -342,6 +344,8 @@ hr{
   justify-content: center;
   align-items: center;
   width: 90%;
+  margin-top: 3rem;
+  text-align: start !important;
 }
   .action-section .action-text {
       font-size: 1.3rem;
@@ -361,8 +365,16 @@ hr{
       justify-content: center;
       align-items: center;
       font-size: 1.2rem;
+      
   }
 
+  .pdl{
+    padding-left: 10% !important;
+  }
+
+  .btn-products{
+    margin-top: -25px !important;
+  }
 
 .products-container .row {
   justify-content: space-evenly;
