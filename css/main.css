@@ -294,6 +294,29 @@ section.nav-categories .active{
  height: auto;
 }
 
+.tub-img{
+  width: 55% !important;
+}
+
+.elevators-img{
+  width: 65% !important;
+}
+
+.slips-drill{
+  width: 85% !important;
+  height: 50% !important;
+}
+
+.safety-t{
+  width: 75% !important;
+  height: 60% !important;
+}
+
+.leaver-h{
+  width: 85% !important;
+  height: 75% !important;
+}
+
 .btn{
   background-color: rgb(142, 44, 44);
   color: #fff;
