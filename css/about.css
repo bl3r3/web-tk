@@ -71,3 +71,8 @@ h2 {
     .showcase-text-2{
       background-color: #f2f2f2;
     }
+@media screen and (max-width: 730px) {
+  .parrafo-bajo-header {
+    font-size: 1.2rem;
+  }
+}
