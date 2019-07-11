@@ -1,5 +1,6 @@
 body{
   background-color: #f7f7f7;
+  overflow-x: hidden; 
 }
 
 .carousel-item {
@@ -346,6 +347,8 @@ hr{
   width: 90%;
   margin-top: 3rem;
   text-align: start !important;
+  padding-left: 2%;
+  padding-right: 2%;
 }
   .action-section .action-text {
       font-size: 1.3rem;
@@ -360,11 +363,11 @@ hr{
       display: block;
       width: 10rem;
       height: 2.5rem;
-      margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 1.2rem;
+      margin-left: 5%;
       
   }
 
@@ -501,6 +504,21 @@ footer.footer {
 
 }
 
+@media screen and (max-width: 730px) { 
+  .action-section {
+    flex-direction: column;
+}
+  .action-section .action-text {
+      text-align: center;
+      padding-left: 0.5rem;
+      font-size: 1rem;
+  }
+
+  .action-section .btn{
+      font-size: 1.1rem;
+      
+  }
+}
 @media screen and (max-width: 770px) { 
   footer.footer .footer__brand-logo {
     border: none;
