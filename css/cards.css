@@ -40,7 +40,7 @@
   }
   .product-card table th, .product-card table td{
     border: 1px solid #8E2C2C;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.3rem;
   }
   .product-card .product-card__ul--first {
     border-bottom: 2px solid #8E2C2C;
