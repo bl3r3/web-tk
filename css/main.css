@@ -303,13 +303,14 @@ section.nav-categories .active{
 }
 
 .slips-drill{
-  width: 85% !important;
-  height: 50% !important;
+  /* width: 85% !important; */
+  margin-bottom: 1rem;
+  /* height: 50% !important; */
 }
 
 .safety-t{
-  width: 75% !important;
-  height: 60% !important;
+  /* width: 75% !important;
+  height: 60% !important; */
 }
 
 .leaver-h{
@@ -375,6 +376,7 @@ hr{
 }
   .action-section .action-text {
       font-size: 1.3rem;
+      line-height: 1.7rem;
   }
 
   .action-section .btn{
@@ -573,6 +575,12 @@ footer.footer {
   .navbar .container .row .nav--bottom .navbar-brand {
     bottom: 5rem;
     left: 11rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slips-drill {
+    width: 80% !important;
   }
 }
 @media screen and (max-width: 830px) { 
