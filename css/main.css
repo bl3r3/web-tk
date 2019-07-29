@@ -459,8 +459,15 @@ footer.footer {
 
   
   
+.correo{
+  text-decoration: none !important;
+  color: black;
 
+}
 
+.correo:hover{
+  color: #8e2c2c;
+}
 
   
 @media screen and (max-width: 430px) {
