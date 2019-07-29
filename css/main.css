@@ -314,7 +314,6 @@ section.nav-categories .active{
 }
 
 .leaver-h{
-  width: 85% !important;
   height: 75% !important;
 }
 
@@ -581,6 +580,9 @@ footer.footer {
 @media screen and (min-width: 768px) {
   .slips-drill {
     width: 80% !important;
+  }
+  .leaver-h {
+    width: 75% !important;
   }
 }
 @media screen and (max-width: 830px) { 
