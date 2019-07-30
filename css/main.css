@@ -6,6 +6,13 @@ body{
   background-color: #f7f7f7;
   overflow-x: hidden; 
 }
+#navbar{
+  transition: top 0.3s;
+}
+
+.mt-5{
+  margin-top: 7rem !important;
+}
 
 .carousel-item {
   height: 58vh;
