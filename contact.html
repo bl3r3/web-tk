@@ -31,7 +31,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light navbar--index">
+  <nav class="navbar navbar-expand-lg navbar-light navbar--index fixed-top" id="navbar">
     <div class="container">
         <div class="row">
             <div class="col-12 nav--upper">
@@ -115,7 +115,7 @@
                     </p>
                 </div>
             </div>
-            <form   method="POST" class="contact-container__right-side col-md-6">
+            <form action="https://formspree.io/sales@tekoil.net"  method="POST" class="contact-container__right-side col-md-6">
                <select name="subject" id="" class="col-5 my-4"  required>
                 <option value="" class="topic-option" disabled selected hidden>Topic</option>
                 <option value="consulting">Consulting & procurement.</option>
@@ -130,22 +130,22 @@
                <input type="email" class="col-5 offset-1 mb-4" placeholder="Email"
                    aria-placeholder="Email" name="email" required/>
                 <span class='asterisk'>*</span>
-               <input type="text" class="col-5 mb-4" placeholder="Name" name="name" aria-placeholder="Name" 
+               <input type="text" class="col-5 mb-4" placeholder="Name" name="Name" aria-placeholder="Name" 
                    required/>
                 <span class='asterisk'>*</span>
                <input type="text" class="col-5 offset-1 mb-4" placeholder="Phone number" 
-                    aria-placeholder="Phone number" name="phone" required/>
+                    aria-placeholder="Phone number" name="Phone" required/>
                 <span class='asterisk'>*</span>
                <input type="text" class="col-5 mb-4" placeholder="State / Region / Country" 
-                    aria-placeholder="State / Region /Country" name="country" required/>
+                    aria-placeholder="State / Region /Country" name="Country" required/>
                 <span class='asterisk'>*</span>
                <div class="w-100"></div>
                <textarea id="" cols="30" rows="5" class="col-12" placeholder="Your message"
-                   aria-placeholder="Your message" name="message"></textarea>
-               <div class=" mb-4 attach-container col-5 col-sm-3 col-md-4 col-lg-3">
+                   aria-placeholder="Your message" name="Message"></textarea>
+               <!-- <div class=" mb-4 attach-container col-5 col-sm-3 col-md-4 col-lg-3">
                    <input type="file" class="" id="attach"/>
                    <div class="attach-stylish" id="attach-style">Attach a file</div>
-               </div>
+               </div> -->
                <div class="w-100"></div>
                <button class="mx-auto">SEND</button>
             </form>
