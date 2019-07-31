@@ -605,10 +605,10 @@ footer.footer {
 }
 @media screen and (max-width: 830px) { 
   .carousel-caption {
-    bottom: 15%;
+    bottom: 10%;
   }
   div.carousel-caption.slide1  {
-    bottom: 15%;
+    bottom: 10%;
   }
     div.carousel-caption.slide1  h5{
       font-size: 2rem;
