@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
   const navTop = document.getElementById("navbar").getBoundingClientRect().top;
   const navBottom = document.getElementById("navbar").getBoundingClientRect().bottom;
   let currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollpos >= currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
     document.getElementById("navbar").style.top = "-" + (navBottom - navTop) + "px";
