@@ -39,10 +39,10 @@ window.addEventListener('scroll', () => {
   const navTop = document.getElementById("navbar").getBoundingClientRect().top;
   const navBottom = document.getElementById("navbar").getBoundingClientRect().bottom;
   let currentScrollPos = window.pageYOffset;
-  if (prevScrollpos >= currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
+  if (prevScrollpos < currentScrollPos) {
     document.getElementById("navbar").style.top = "-" + (navBottom - navTop) + "px";
+  } else {
+    document.getElementById("navbar").style.top = "0";
   }
   prevScrollpos = currentScrollPos;
 }); 
